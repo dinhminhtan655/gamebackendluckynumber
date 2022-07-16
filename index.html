@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>..::[DMTOON]::..</title>
+    </head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        socket = io();
+        socket.on('broadcast',function(data){
+        document.writeln(data)
+    });
+    </script> 
+
+    <body>
+        <h1> THIS IS BACKEND </h1>
+    </body>
+
+
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "game_backend_luckynumber",
+  "version": "1.0.0",
+  "description": "Backend for game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DMTOON",
+  "license": "ISC",
+  "dependencies": {
+    "arraylist": "^0.1.0",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1",
+    "socketio": "^1.0.0"
+  }
+}
