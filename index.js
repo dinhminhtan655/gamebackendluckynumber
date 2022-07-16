@@ -134,11 +134,11 @@ io.on('connection',function(socket){
         console.log('User '+socket.id+' is leave');
     });
     
-});
+}); 
 
 
 //Start Server
-http.listen(3000, function(){
+http.listen(process.env.PORT || 3000, function(){
     console.log('START GAME STARTED ON PORT: 3000');
 
     countDown();
